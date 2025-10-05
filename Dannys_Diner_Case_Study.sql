@@ -1,6 +1,3 @@
--- Table structure sourced from Danny's Diner dataset/tutorial
--- https://8weeksqlchallenge.com/case-study-1/
-
 use Dannys_diner;
 
 Select * from sales;
