@@ -1,3 +1,6 @@
+-- Table structure sourced from Danny's Diner dataset/tutorial
+-- https://8weeksqlchallenge.com/case-study-1/
+
 CREATE SCHEMA dannys_diner;
 SET search_path = dannys_diner;
 
