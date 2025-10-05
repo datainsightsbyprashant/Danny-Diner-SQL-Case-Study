@@ -33,17 +33,11 @@ Danny's Diner wants to leverage customer data to understand visiting patterns, s
 ## Repository Structure
 
 ```
+dannys-diner-sql-case-study/
 ├── README.md                          # Project overview (you are here)
 ├── ANALYSIS.md                        # Detailed findings and business recommendations
-├── queries/
-│   ├── customer_spending.sql         # Total spend per customer
-│   ├── visit_frequency.sql           # Customer visit patterns
-│   ├── menu_popularity.sql           # Product purchase analysis
-│   ├── loyalty_analysis.sql          # Membership impact queries
-│   └── points_calculation.sql        # Loyalty points scenarios
-└── data/
-    ├── schema.sql                     # Database schema
-    └── sample_data.sql                # Sample dataset
+├── Dannys_Diner_Case_Study.sql        # All SQL queries for the case study
+└── Dannys_Diner_Tables_used.sql       # Database schema and table definitions
 ```
 
 ## Sample Queries
@@ -66,7 +60,7 @@ ORDER BY purchase_count DESC
 LIMIT 1;
 ```
 
-**See full query collection in the `queries/` folder or detailed analysis in [ANALYSIS.md](ANALYSIS.md)**
+**See full query collection in [Dannys_Diner_Case_Study.sql](Dannys_Diner_Case_Study.sql) or detailed analysis in [ANALYSIS.md](ANALYSIS.md)**
 
 ## Business Recommendations
 
